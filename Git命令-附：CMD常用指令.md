@@ -194,3 +194,10 @@ net stop '服务名'    # 停止指定服务：
 > 或者将文件放入系统`启动`目录中，可以实现开机自动运行。
 >
 > **启动目录位置**：`C:\Users\用户名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+### 查看显卡的信息
+
+```powershell
+nvidia-smi   # 查看英伟达类型的显卡信息
+```
+
